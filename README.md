@@ -1,2 +1,34 @@
-# titanic-survival-prediction
-This project predicts Titanic survival using Logistic Regression and XGBoost. It involves cleaning raw data, feature engineering (e.g., FamilySize), and EDA with 5+ visualizations. XGBoost achieved 83.2% accuracy, outperforming the baseline.
+# Titanic Survival Prediction - Data Science Final Project
+
+## Project Overview
+This project applies machine learning techniques to predict passenger survival during the Titanic disaster. By analyzing historical passenger data, we identify key factors such as socio-economic status, age, and gender that influenced survival rates. This project demonstrates a complete data science workflow, including data cleaning, exploratory analysis, and predictive modeling.
+
+## Team Members
+* **Miranda Kupatadze**
+
+## Dataset Information
+The dataset used is the classic Titanic dataset from Kaggle.
+- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
+- **Original Data:** Located in `data/raw/`
+- **Processed Data:** Cleaned versions are saved in `data/processed/`
+
+### Key Features:
+- **Pclass:** Ticket class (1 = 1st, 2 = 2nd, 3 = 3rd)
+- **Sex:** Gender of the passenger
+- **Age:** Age in years
+- **SibSp/Parch:** Number of family members aboard
+- **Fare:** Passenger fare
+- **Embarked:** Port of Embarkation (C, Q, S)
+
+## Repository Structure
+```text
+├── data/
+│   ├── raw/            # Original immutable datasets
+│   └── processed/      # Cleaned and transformed data
+├── notebooks/          # Jupyter Notebooks (Natalia_Sagaradze_Titanic.ipynb)
+├── reports/
+│   └── figures/        # Exported visualizations (EDA plots)
+├── .gitignore          # Files to be ignored by Git
+├── README.md           # Project documentation
+├── requirements.txt    # Library dependencies
+└── CONTRIBUTIONS.md    # Documentation of member tasks
