@@ -20,15 +20,4 @@ The dataset used is the classic Titanic dataset from Kaggle.
 - **Fare:** Passenger fare
 - **Embarked:** Port of Embarkation (C, Q, S)
 
-## Repository Structure
-```text
-├── data/
-│   ├── raw/            # Original immutable datasets
-│   └── processed/      # Cleaned and transformed data
-├── notebooks/          # Jupyter Notebooks (Miranda_Kupatadze_Titanic.ipynb)
-├── reports/
-│   └── figures/        # Exported visualizations (EDA plots)
-├── .gitignore          # Files to be ignored by Git
-├── README.md           # Project documentation
-├── requirements.txt    # Library dependencies
-└── CONTRIBUTIONS.md    # Documentation of member tasks
+
