@@ -8,7 +8,7 @@ This project applies machine learning techniques to predict passenger survival d
 
 ## Dataset Information
 The dataset used is the classic Titanic dataset from Kaggle.
-- **Source:** [Kaggle Titanic Dataset](https://www.kaggle.com/c/titanic)
+- **Source:** Kaggle
 - **Original Data:** Located in `data/raw/`
 - **Processed Data:** Cleaned versions are saved in `data/processed/`
 
