@@ -25,7 +25,7 @@ The dataset used is the classic Titanic dataset from Kaggle.
 ├── data/
 │   ├── raw/            # Original immutable datasets
 │   └── processed/      # Cleaned and transformed data
-├── notebooks/          # Jupyter Notebooks (Natalia_Sagaradze_Titanic.ipynb)
+├── notebooks/          # Jupyter Notebooks (Miranda_Kupatadze_Titanic.ipynb)
 ├── reports/
 │   └── figures/        # Exported visualizations (EDA plots)
 ├── .gitignore          # Files to be ignored by Git
